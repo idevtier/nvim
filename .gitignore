@@ -1,2 +1,4 @@
 lsp/
 .luarc.json
+plugin
+.netrwhist
