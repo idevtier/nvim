@@ -33,4 +33,5 @@ packer.startup(function(use)
     }
     use 'norcalli/nvim-colorizer.lua'
     use 'tpope/vim-commentary' -- Faster comments with gc & gcc
+    use 'ryanoasis/vim-devicons'
 end)
