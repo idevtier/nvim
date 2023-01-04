@@ -46,15 +46,15 @@ telekasten.setup({
 
   -- template for new notes (new_note, follow_link)
   -- set to `nil` or do not specify if you do not want a template
-  template_new_note = home .. '/' .. 'templates/new_note.md',
+  template_new_note = home .. '/' .. 'meta/templates/default.md',
 
   -- template for newly created daily notes (goto_today)
   -- set to `nil` or do not specify if you do not want a template
-  template_new_daily = home .. '/' .. 'templates/daily.md',
+  template_new_daily = home .. '/' .. 'meta/templates/daily.md',
 
   -- template for newly created weekly notes (goto_thisweek)
   -- set to `nil` or do not specify if you do not want a template
-  template_new_weekly = home .. '/' .. 'templates/weekly.md',
+  template_new_weekly = home .. '/' .. 'meta/templates/weekly.md',
 
   -- image link style
   -- wiki:     ![[image name]]
